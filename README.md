@@ -5,7 +5,7 @@ Alpine Based Squid Proxy
 ## Run
 
 ```
-docker run --rm -p 3128:3128 --name squid olkitu/docker-squid
+docker run -d --rm -p 3128:3128 --name squid olkitu/docker-squid
 ```
 
 ## Custom configuration
