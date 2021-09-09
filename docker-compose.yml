@@ -1,7 +1,6 @@
 version: '2.4'
 services:
   squid:
-    build: .
-    image: olkitu/docker-squid
+    image: ghcr.io/olkitu/docker-squid
     ports:
     - 3128:3128
